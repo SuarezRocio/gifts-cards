@@ -25,11 +25,13 @@ Se utiliza JSX para renderizar componentes de React, como GifCardWrapper, GifLis
 
 <li>Estilos con Styled Components:
 
-Se asume que GifCardWrapper, GifList, y GifItem son componentes estilizados utilizando Styled Components, ya que se utilizan en el código, aunque sus definiciones no se proporcionan en el fragmento que compartiste.
-Presentación de los GIFs en la Página:
+Se asume que GifCardWrapper, GifList, y GifItem son componentes estilizados utilizando Styled Components, ya que se utilizan en el código.</li>
 
-La lista de GIFs recuperada de la API se presenta en la página mediante el mapeo y renderizado de cada GIF utilizando la etiqueta <img> en los componentes GifItem.
-Manejo de Errores:
+<li>Presentación de los GIFs en la Página:
+
+La lista de GIFs recuperada de la API se presenta en la página mediante el mapeo y renderizado de cada GIF utilizando la etiqueta <img> en los componentes GifItem.</li>
+
+<li>Manejo de Errores:
 
 Se implementa un manejo básico de errores en caso de que la solicitud Fetch no sea exitosa. Se imprime un mensaje de error en la consola.</li>
 
